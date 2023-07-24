@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Raise the party spirit with Whimzee - the ultimate social game! Play with friends, share laughs, and toast to unforgettable nights!">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="icon" href="static/resources/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/static/index.css">
+
+    <style>
+        html, body {
+            height: 100%; /* adjust this value as needed */
+            margin: 0;
+            padding: 0;
+        }
+
+        #test {
+            height: 100%;
+            background-image: url("static/resources/color-corrected-stingrays-smaller.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center bottom; /* add this line */
+        }
+        .privatePolicyDiv {
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 50px;
+          margin-top: -70px;
+          position: relative; /* add this line */
+          top: calc(50% - 130px); /* adjust 100px to half of the height of .privatePolicyDiv */
+        }
+
+        .privatePolicyDiv2 {
+          background-color: rgba(255, 255, 255, 0.8);
+          padding-left: 50px;
+          padding-right: 50px;
+          position: relative; /* add this line */
+        }
+
+        .navbar-title {
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 1;
+            color: white;
+        }
+
+        .navbar-text {
+            font-size: 12px;
+            font-weight: normal;
+            text-transform: none;
+            color: white;
+            margin-top: 3px;
+            line-height: 1;
+            padding-left: 4px;
+        }
+
+        /* This code hides the .navbar-text element when screen width is less than 768px */
+        @media (max-width: 767px) {
+            .navbar-text {
+                display: none;
+            }
+
+            #large {
+              display: none;
+            }
+
+            .privatePolicyDiv {
+              background-color: rgba(255, 255, 255, 0.8);
+              padding: 50px;
+              margin-top: -70px;
+              position: relative; /* add this line */
+              top: calc(50% - 135px); /* adjust 100px to half of the height of .privatePolicyDiv */
+            }
+        }
+
+        @media (min-width: 768px) {
+
+            #small {
+              display: none;
+            }
+        }
+    </style>
+    <title>Whimzee</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-static-top navbar-transparent" role="navigation" style="border-color: rgba(0, 0, 0, 0.0);">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-title" style="padding-top:5px;">
+                    <img src="static/resources/tipsy-time-character-pg.png" alt="Whimzee Logo" height="22" s> Whimzee
+                </div>
+                <div class="navbar-text" style="color:white;">A Fun Socializing game for iOS/MacOS</div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a style="color:white;" href="./">Home</a></li>
+                    <li><a style="color:white;" href="/support">Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <p id='small' style="text-align:center; color: white; margin-top: -25px;">Underwater Color Correction for iOS</p>
+
+
+    <div id="examples" style="padding-top: 10px;">
+        <!-- <h1 style="color: #5e9ca0; text-align: center;">About</h1> -->
+
+        <div style="text-align: center; max-width: 900px; margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px;">
+            <h2 style="color: #5e9ca0;">Introducing Whimzee - The Ultimate iPhone/MacOS Social Game!</h2>
+
+            <h2 style="color: #5e9ca0";>Gather your friends, get your game faces on, and let the fun begin!</h2>
+
+            <br>
+
+            <img src="static/resources/tipsytime.gif" width="250"> 
+            <br>
+            <br>
+            <h3>Features:</h3>
+            <br>
+
+            <p>
+                • <b>Unforgettable Gatherings</b>: Play with 2+ players (no max limit) for a night of laughter and excitement.
+                <br>
+                • <b>Pass-and-Play</b>: Take turns passing the phone (or play around a computer), completing hilarious challenges or dares.
+                <br>
+                • <b>Group Fun</b>: Participate in entertaining group challenges.
+                <br>
+                • <b>No Points, Just Penalties</b>: Refuse a challenge? Take a sip! No scoring, just laughter.
+                <br>
+                • <b>Expanding Challenges</b>: Enjoy hundreds of tasks with regular updates.
+                <br>
+                • <b>Free to Play</b>: Download and start the party for free!
+                <br>
+                <br>
+
+                Get Whimzee now and create memories that'll last a lifetime!
+
+                <!-- (<b>Disclaimer:</b> Whimzee encourages <b>responsible drinking</b>. Users must be of legal drinking age in their respective countries. Please drink responsibly and know your limits). -->
+            </p>
+        </div>
+
+    </div>
+
+    <br>
+
+    <footer style="padding-left: 50px; padding-right: 50px;">
+        <p>2023 Silly Squad Games. All rights reserved.</p>
+        <ul>
+            <li><a href="/private-policy">Private Policy</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
